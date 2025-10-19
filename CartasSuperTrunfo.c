@@ -11,7 +11,8 @@ int main() {
     int populacao2, pontosTuristicos2;
     float area2, pib2;
 
-    //A definição das variaveis poderia ter sido feito em um bloco apenas, todos os chars em uma linha, assim como todos os floats, etc, mas para manter levemente ortganizado e para facilitar o entendimento, manteremos separados. 
+    //A definição das variaveis poderia ter sido feito em um bloco apenas, todos os chars em uma linha, assim como todos os floats, etc, 
+    //mas para manter levemente ortganizado e para facilitar o entendimento, manteremos separados. 
   
     //Leitura dos dados da Carta 1
     printf("Vamos Cadastrar a cidade 1?\n");
