@@ -11,10 +11,10 @@ int main() {
     int populacao2, pontosTuristicos2;
     float area2, pib2;
 
-    //
+    //A definição das variaveis poderia ter sido feito em um bloco apenas, todos os chars em uma linha, assim como todos os floats, etc, mas para manter levemente ortganizado e para facilitar o entendimento, manteremos separados. 
   
     //Leitura dos dados da Carta 1
-    printf("=== Cadastro da Carta 1 ===\n");
+    printf("Vamos Cadastrar a cidade 1?\n");
     printf("Estado (A-H): ");
     scanf(" %c", &estado1);
 
@@ -36,8 +36,8 @@ int main() {
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontosTuristicos1);
 
-    // === Leitura dos dados da Carta 2 ===
-    printf("\n=== Cadastro da Carta 2 ===\n");
+    //Leitura dos dados da Carta 2
+    printf("\n Vamos cadastrar a Cidade 2?\n");
     printf("Estado (A-H): ");
     scanf(" %c", &estado2);
 
@@ -60,7 +60,7 @@ int main() {
     scanf("%d", &pontosTuristicos2);
 
     //Exibição dos dados da Carta 1
-    printf("\n\n=== Carta 1 ===\n");
+    printf("\n\nCidade 1\n");
     printf("Estado: %c\n", estado1);
     printf("Codigo: %s\n", codigo1);
     printf("Nome da Cidade: %s\n", nomeCidade1);
@@ -70,7 +70,7 @@ int main() {
     printf("Numero de Pontos Turisticos: %d\n", pontosTuristicos1);
 
     //Exibição dos dados da Carta 2
-    printf("\n=== Carta 2 ===\n");
+    printf("\n\Cidade 2\n");
     printf("Estado: %c\n", estado2);
     printf("Codigo: %s\n", codigo2);
     printf("Nome da Cidade: %s\n", nomeCidade2);
