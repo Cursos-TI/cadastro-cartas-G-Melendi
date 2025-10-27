@@ -38,7 +38,7 @@ int main() {
     scanf("%d", &pontosTuristicos1);
     
     DensPop1 = (float)populacao1 / area1;
-    PIBPerCapita1 = pib1 / (float)populacao1;
+    PIBPerCapita1 = pib1 * 1000000 / (float)populacao1;
     
     //Leitura dos dados da Carta 2
     printf("\n Vamos cadastrar a Cidade 2?\n");
@@ -64,7 +64,7 @@ int main() {
     scanf("%d", &pontosTuristicos2);
     
     DensPop2 = (float)populacao2 / area2;
-    PIBPerCapita2 = pib2 / (float)populacao2;
+    PIBPerCapita2 = pib2 * 1000000 / (float)populacao2;
     
 
     //Exibição dos dados da Carta 1
