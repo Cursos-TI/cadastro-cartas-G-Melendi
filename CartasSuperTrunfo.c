@@ -117,7 +117,7 @@ int main() {
     printf("vencedor da Area é %d\n", CompArea);
     printf("vencedor do PIB é %d\n", CompPib);
     printf("vencedor de Pontos Turisticos é %d\n", CompTur);
-    printf("vencedor da Densodade é %d\n", CompDesn);
+    printf("vencedor da Densodade é %d\n", CompDens);
     printf("vencedor do PIB Per Capita é %d\n", CompPPC);
     printf("vencedor de Super Poder é %d\n", CompPoder);
     
