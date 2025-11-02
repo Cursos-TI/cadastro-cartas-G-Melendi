@@ -43,7 +43,7 @@ int main() {
     DensPop1 = (float)populacao1 / area1;
     PIBPerCapita1 = pib1 * 1000000000 / (float)populacao1;
     InvDens1 = 1 / DensPop1;
-    SuperPoder1 = (float)populacao1 + (float)area1 + (float)pib1 + (float)pontosTuristicos1 + (float)PIBPerCapita1 + (float)InvDesn1;
+    SuperPoder1 = (float)populacao1 + (float)area1 + (float)pib1 + (float)pontosTuristicos1 + (float)PIBPerCapita1 + (float)InvDens1;
     
     //Leitura dos dados da Carta 2
     printf("\n Vamos cadastrar a Cidade 2?\n");
@@ -71,7 +71,7 @@ int main() {
     DensPop2 = (float)populacao2 / area2;
     PIBPerCapita2 = pib2 * 1000000000 / (float)populacao2;
     InvDens2 = 1 / DensPop2;
-    SuperPoder2 = (float)populacao2 + (float)area2 + (float)pib2 + (float)pontosTuristicos2 + (float)PIBPerCapita2 + (float)InvDesn2;
+    SuperPoder2 = (float)populacao2 + (float)area2 + (float)pib2 + (float)pontosTuristicos2 + (float)PIBPerCapita2 + (float)InvDens2;
 
     //Exibição dos dados da Carta 1
     printf("\n\nCidade 1\n");
@@ -99,6 +99,20 @@ int main() {
     printf("Densidade populacional: %.2f Hab/km²\n", DensPop2);
     printf("PIB per capita: %.2f R$ / hab\n", PIBPerCapita2);
 
+    // Comparação das Cartas
+    CompPop = populacao1 > populacao2;
+    CompArea = area 1 > area2;
+    CompPib = pib1 > pib2;
+    CompTur = pontosTuristicos1 > pontosTuristicos2;
+    CompDesn = DensPop1 < DesnPop2;
+    CompPPC = PIBPercapita1 > PIBPerCapita2;
+    CompPoder = SuperPoder1 > SuperPoder2;
+
+    // Imprimir Resultado Final
+    printf("Vencedores\n");
+    printf("Se 1, o Ganhador é %s, se for 0 é %s\n", nomeCidade1, nomeCidade2);
+    
+    
     return 0;
 }
 
