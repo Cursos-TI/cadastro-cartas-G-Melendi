@@ -3,12 +3,14 @@
 int main() {
     //Declaração das variáveis da Carta 1
     char estado1[3], codigo1[4], nomeCidade1[50];
-    int populacao1, pontosTuristicos1;
+    int pontosTuristicos1;
+    unsigned long intpopulacao1;
     float area1, pib1, DensPop1, PIBPerCapita1;
 
     //Declaração das variáveis da Carta 2
     char estado2[3], codigo2[4], nomeCidade2[50];
-    int populacao2, pontosTuristicos2;
+    int pontosTuristicos2;
+    unsigned long int populacao2;
     float area2, pib2, DensPop2, PIBPerCapita2;
 
     //A definição das variaveis poderia ter sido feito em um bloco apenas, todos os chars em uma linha, assim como todos os floats, etc, 
