@@ -111,7 +111,7 @@ int main() {
     CompPoder = SuperPoder1 > SuperPoder2;
 
     // Imprimir Resultado Final
-    printf("Vencedores\n");
+    printf("\nVencedores\n");
     printf("Se 1, o Ganhador é %s, se for 0 é %s\n", nomeCidade1, nomeCidade2);
     printf("vencedor da População é %d\n", CompPop);
     printf("vencedor da Area é %d\n", CompArea);
