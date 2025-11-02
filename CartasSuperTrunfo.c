@@ -106,7 +106,7 @@ int main() {
     CompArea = area1 > area2;
     CompPib = pib1 > pib2;
     CompTur = pontosTuristicos1 > pontosTuristicos2;
-    CompDesn = DensPop1 < DensPop2;
+    CompDens = DensPop1 < DensPop2;
     CompPPC = PIBPerCapita1 > PIBPerCapita2;
     CompPoder = SuperPoder1 > SuperPoder2;
 
