@@ -37,7 +37,7 @@ int main() {
     scanf("%f", &area1);
 
     printf("PIB (em bilhoes de reais): ");
-    scanf("%lf", &pib1);
+    scanf("%f", &pib1);
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontosTuristicos1);
