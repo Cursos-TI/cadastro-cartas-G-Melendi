@@ -13,6 +13,8 @@ int main() {
     unsigned long int populacao2;
     float area2, pib2, DensPop2, PIBPerCapita2, InvDens2, SuperPoder2;
 
+    int CompPop, CompArea, CompPib, CompTur, CompDens, CompPPC, CompPoder;
+
     //A definição das variaveis poderia ter sido feito em um bloco apenas, todos os chars em uma linha, assim como todos os floats, etc, 
     //mas para manter levemente ortganizado e para facilitar o entendimento, manteremos separados. 
   
@@ -101,16 +103,23 @@ int main() {
 
     // Comparação das Cartas
     CompPop = populacao1 > populacao2;
-    CompArea = area 1 > area2;
+    CompArea = area1 > area2;
     CompPib = pib1 > pib2;
     CompTur = pontosTuristicos1 > pontosTuristicos2;
-    CompDesn = DensPop1 < DesnPop2;
-    CompPPC = PIBPercapita1 > PIBPerCapita2;
+    CompDesn = DensPop1 < DensPop2;
+    CompPPC = PIBPerCapita1 > PIBPerCapita2;
     CompPoder = SuperPoder1 > SuperPoder2;
 
     // Imprimir Resultado Final
     printf("Vencedores\n");
     printf("Se 1, o Ganhador é %s, se for 0 é %s\n", nomeCidade1, nomeCidade2);
+    printf("vencedor da População é %d\n", CompPop);
+    printf("vencedor da Area é %d\n", CompArea);
+    printf("vencedor do PIB é %d\n", CompPib);
+    printf("vencedor de Pontos Turisticos é %d\n", CompTur);
+    printf("vencedor da Densodade é %d\n", CompDesn);
+    printf("vencedor do PIB Per Capita é %d\n", CompPPC);
+    printf("vencedor de Super Poder é %d\n", CompPoder);
     
     
     return 0;
