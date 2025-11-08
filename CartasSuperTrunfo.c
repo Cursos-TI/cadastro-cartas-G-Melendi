@@ -102,25 +102,36 @@ int main() {
     printf("Densidade populacional: %.2f Hab/km²\n", DensPop2);
     printf("PIB per capita: %.2f R$ / hab\n", PIBPerCapita2);
 
-    // Comparação das Cartas
-    CompPop = populacao1 > populacao2;
-    CompArea = area1 > area2;
-    CompPib = pib1 > pib2;
-    CompTur = pontosTuristicos1 > pontosTuristicos2;
-    CompDens = DensPop1 < DensPop2;
-    CompPPC = PIBPerCapita1 > PIBPerCapita2;
-    CompPoder = SuperPoder1 > SuperPoder2;
+   printf("\nVencedores\n");
+    if = populacao1 > populacao2;
+    printf("$s tem a maior população!", cidade1);
+        else 
+       printf("$s tem a maior população!", cidade2); 
+    if = area1 > area2;
+    printf("$s tem a maior area!", cidade1);
+        else 
+       printf("$s tem a maior area!", cidade2); 
+    if = pib1 > pib2;
+    printf("$s tem o maior PIB!", cidade1);
+        else 
+       printf("$s tem o maior PIB!", cidade2); 
+    if = pontosTuristicos1 > pontosTuristicos2;
+    printf("$s tem mais pontos turisticos!", cidade1);
+        else 
+       printf("$s tem mais pontos turisticos!", cidade2); 
+    if = DensPop1 < DensPop2;
+    printf("$s tem menor densidade populacional!", cidade1);
+        else 
+       printf("$s tem menor densidade populacional!", cidade2); 
+    if = PIBPerCapita1 > PIBPerCapita2;
+    printf("$s tem o maior PIB per Capita", cidade1);
+        else 
+       printf("$s tem o maior PIB per capita!", cidade2); 
+    if = SuperPoder1 > SuperPoder2;
+    printf("$s tem o maior SUPER PODER!", cidade1);
+        else 
+       printf("$s tem o maior SUPER PODER!", cidade2); 
 
-    // Imprimir Resultado Final
-    printf("\nVencedores\n");
-    printf("Se 1, o Ganhador é %s, se for 0 é %s\n", nomeCidade1, nomeCidade2);
-    printf("vencedor da População é %d\n", CompPop);
-    printf("vencedor da Area é %d\n", CompArea);
-    printf("vencedor do PIB é %d\n", CompPib);
-    printf("vencedor de Pontos Turisticos é %d\n", CompTur);
-    printf("vencedor da Densodade é %d\n", CompDens);
-    printf("vencedor do PIB Per Capita é %d\n", CompPPC);
-    printf("vencedor de Super Poder é %d\n", CompPoder);
     
     
     return 0;
