@@ -103,44 +103,40 @@ int main() {
     printf("PIB per capita: %.2f R$ / hab\n", PIBPerCapita2);
 
    printf("\nVencedores\n");
-    if  (populacao1 > populacao2) {
-    printf("%s tem a maior população!
-
-
-
-", nomeCidade1)
-        } else { 
-       printf("%s tem a maior população!\n", nomeCidade2)};
+   if  (populacao1 > populacao2) {
+   printf("%s tem a maior população!\n", nomeCidade1);
+   } else { 
+   printf("%s tem a maior população!\n", nomeCidade2);}
     
-    if (area1 > area2) {
-    printf("%s tem a maior area!\n", nomeCidade1);
-       } else {
-       printf("%s tem a maior area!\n", nomeCidade2)}; 
+   if (area1 > area2) {
+   printf("%s tem a maior area!\n", nomeCidade1);
+   } else {
+   printf("%s tem a maior area!\n", nomeCidade2);} 
+   
+   if (pib1 > pib2) {
+   printf("%s tem o maior PIB!\n", nomeCidade1);
+   } else {
+   printf("%s tem o maior PIB!\n", nomeCidade2);} 
+   
+   if (pontosTuristicos1 > pontosTuristicos2) {
+   printf("%s tem mais pontos turisticos!\n", nomeCidade1);
+   } else {
+   printf("%s tem mais pontos turisticos!\n", nomeCidade2);} 
+   
+   if (DensPop1 < DensPop2) {
+   printf("%s tem menor densidade populacional!\n", nomeCidade1);
+   } else {
+   printf("%s tem menor densidade populacional!\n", nomeCidade2);}
     
-    if (pib1 > pib2) {
-    printf("%s tem o maior PIB!\n", nomeCidade1);
-      } else {
-       printf("%s tem o maior PIB!\n", nomeCidade2)}; 
-    
-    if (pontosTuristicos1 > pontosTuristicos2) {
-    printf("%s tem mais pontos turisticos!\n", nomeCidade1);
-       } else {
-       printf("%s tem mais pontos turisticos!\n", nomeCidade2)}; 
-    
-    if (DensPop1 < DensPop2) {
-    printf("%s tem menor densidade populacional!\n", nomeCidade1);
-       } else {
-       printf("%s tem menor densidade populacional!\n", nomeCidade2)};
-    
-    if (PIBPerCapita1 > PIBPerCapita2) {
-    printf("%s tem o maior PIB per Capita\n", nomeCidade1);
-       } else {
-       printf("%s tem o maior PIB per capita!\n", nomeCidade2)}; 
-    
-    if (SuperPoder1 > SuperPoder2) {
-    printf("%s tem o maior SUPER PODER!\n", nomeCidade1);
-      }  else {
-       printf("%s tem o maior SUPER PODER!\n", nomeCidade2)}; 
-      
-    return 0;
+   if (PIBPerCapita1 > PIBPerCapita2) {
+   printf("%s tem o maior PIB per Capita\n", nomeCidade1);
+   } else {
+   printf("%s tem o maior PIB per capita!\n", nomeCidade2);} 
+   
+   if (SuperPoder1 > SuperPoder2) {
+   printf("%s tem o maior SUPER PODER!\n", nomeCidade1);
+   }  else {
+   printf("%s tem o maior SUPER PODER!\n", nomeCidade2);} 
+     
+   return 0;
 }
